@@ -9,6 +9,7 @@ import time
 #Opens Phone Cat.
 driver = webdriver.Chrome()
 driver.get("http://x13.se/~applet/app")
+driver.maximize_window()
 time.sleep (5)
 
 #Searches for "Dell Venue" in the search bar.
